@@ -109,5 +109,44 @@ nav> .cardapio{
 .cardapio> img{
     -webkit-mask-image: linear-gradient(to left, transparent 5%, rgba(0, 0, 0, 0.158));
 }
-
+nav> .restaurantes{
+    display: inline-block;
+    position: relative;
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: 15px;
+}
+.restaurantes> h1{
+    position: absolute;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 4em;
+    float: right;
+    top: 200px;
+    right: 230px;
+}
+.restaurantes> p{
+    position: absolute;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 1em;
+    float: right;
+    top: 340px;
+    right: 230px;
+}
+.restaurantes> img{
+    -webkit-mask-image: linear-gradient(to left, transparent 5%, rgba(0, 0, 0, 0.158));
+}
+aside{
+    float: left;
+    background-color: blue;
+    font-size: 1.5em;
+    display: inline-flexbox;
+    position: relative;
+}
+aside> img{
+    float: right;
+    position: absolute;
+    
+}
 /* /Navegação */
