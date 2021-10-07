@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Merriweather Regular';
+    src: url('Merriweather-Regular.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+/* Cabeçalho */
+header{
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 70px;
+}
+header> a{
+    text-decoration: none;
+    color: aliceblue;
+    float: right;
+    padding-top: 33px;
+    padding-right: 45px;
+}
+header> .logo{
+    color: aliceblue;
+    font-weight: bolder;
+    text-align: center;
+    float: left;
+    font-family: 'Merriweather Regular';
+    font-size: 2em;
+    padding-left: 55px;
+    width: 100px;
+    height: 20px;
+}
+header> a:hover{
+    text-decoration: underline;
+    color: rgb(194, 188, 129);
+}
+/* /cabeçalho */
+/* Navegação */
+nav{
+    margin:auto;
+    width: 100%;
+}
+nav> .banner{
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+/* /Navegação */
