@@ -165,8 +165,37 @@ aside> p{
 footer{
     border-top: 2px solid rgb(194, 188, 129);;
 }
-
-
+footer> ul{
+    text-align: center;
+    list-style: none;  
+}
+.first-list{
+    float: left;
+    width: 45%;
+    columns: 2;
+}
+.second-list{
+    font-weight: bolder;
+    float: right;
+    width: 45%;
+    columns: 2;
+}
+footer> p{
+    margin: 350px;
+    text-align: center;
+}
+span{
+    font-weight: bolder;
+}
+input{
+    background-color: gray;
+}
+form{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: -200px;
+    margin-bottom: 152px;
+}
 
 
 
